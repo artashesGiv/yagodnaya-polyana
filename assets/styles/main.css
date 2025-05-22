@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+
+body {
+  font-family: Actay, sans-serif;
+}
+
+@theme {
+  --color-primary: #0f7951;
+  --color-seconsary: #b4b83c;
+  --color-white-secondary: #fbfbfb;
+  --color-main-black: #303030;
+
+  --breakpoint-3xl: 120rem;
+
+  --shadow-base: 0 8px 16px 0 #1b1b1b33;
+}

@@ -1,0 +1,26 @@
+.dropdown-enter-active,
+.dropdown-leave-active {
+  transition:
+    transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+    opacity 0.2s ease-out;
+}
+
+.dropdown-enter-from {
+  transform: translateY(-20px) scaleY(0.8);
+  opacity: 0;
+}
+
+.dropdown-enter-to {
+  transform: translateY(0) scaleY(1);
+  opacity: 1;
+}
+
+.dropdown-leave-from {
+  transform: translateY(0) scaleY(1);
+  opacity: 1;
+}
+
+.dropdown-leave-to {
+  transform: translateY(-10px) scaleY(0.9);
+  opacity: 0;
+}
