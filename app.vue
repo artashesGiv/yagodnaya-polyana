@@ -1,6 +1,6 @@
 <template>
   <div>
     <main-header />
+    <main-section />
   </div>
 </template>
-<script setup lang="ts"></script>

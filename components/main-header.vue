@@ -2,7 +2,7 @@
   <header
     class="bg-white-secondary flex h-[100px] items-center gap-[30px] py-[10px] pr-[52px] pl-[35px] md:h-[120px] md:gap-[50px] lg:h-[150px]"
   >
-    <div class="grow">
+    <div class="grow cursor-pointer" @click="scrollTo('main')">
       <nuxt-img
         src="/images/logo.png"
         alt="Ягодная поляна - логотип"
@@ -49,7 +49,7 @@ import { useSmoothScroll } from '~/composables/useSmoothScroll'
 import { vOnClickOutside } from '@vueuse/components'
 
 const links: { title: string; id: string }[] = [
-  // { title: 'Главная', id: 'about' },
+  // { title: 'Главная', id: 'main' },
   { title: 'О нас', id: 'about' },
   { title: 'Услуги', id: 'services' },
   { title: 'Галерея', id: 'gallery' },

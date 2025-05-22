@@ -4,3 +4,10 @@
   font-weight: 400;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Druzhok';
+  src: url('/fonts/DRUZHOK.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
