@@ -5,7 +5,7 @@
   >
     <nuxt-img
       src="/images/main-bg.jpg"
-      class="h-full w-full object-cover transition-all duration-1000 group-hover:scale-120"
+      class="h-full w-full object-cover transition-all duration-2000 group-hover:scale-120"
     />
     <div
       class="absolute top-1/2 left-1/2 w-[80%] -translate-x-1/2 -translate-y-1/2 text-white"
