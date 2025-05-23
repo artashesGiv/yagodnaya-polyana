@@ -6,11 +6,11 @@
   >
     <article class="group relative overflow-hidden rounded-[40px]">
       <nuxt-img
-        src="/images/resources-section/2.png"
+        src="/images/about/2.png"
         class="h-full w-full duration-1500 group-hover:scale-120"
       />
       <nuxt-img
-        src="/images/resources-section/2-bg.png"
+        src="/images/about/2-bg.png"
         class="absolute bottom-0 left-0 w-[93%]"
       />
       <span

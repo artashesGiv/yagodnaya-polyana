@@ -11,6 +11,8 @@ export const useSmoothScroll = () => {
         top: offsetPosition,
         behavior: 'smooth',
       })
+
+      history.pushState(null, '', `#${id}`)
     }
   }
 

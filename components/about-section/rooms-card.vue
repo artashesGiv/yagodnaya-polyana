@@ -15,7 +15,7 @@
         </span>
       </div>
       <nuxt-img
-        src="/images/resources-section/3.png"
+        src="/images/about/3.png"
         class="h-full w-full duration-1500 group-hover:scale-120"
       />
     </article>
