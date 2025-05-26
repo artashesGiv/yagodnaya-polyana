@@ -6,16 +6,16 @@
   >
     <article class="group relative overflow-hidden rounded-[40px]">
       <div
-        class="absolute top-0 left-0 z-10 flex h-[33.33%] w-full items-center justify-center rounded-t-[40px] border-1 bg-white"
+        class="bg-secondary absolute top-0 left-0 z-10 flex h-[40%] w-full items-center justify-center rounded-t-[40px]"
       >
         <span
-          class="text-secondary font-druzhok text-[60px] leading-none sm:text-[50px] lg:text-[60px]"
+          class="font-druzhok text-[60px] leading-none text-white sm:text-[50px] lg:text-[60px]"
         >
-          НОМЕРА
+          СОВЕТЫ ПО <br />ОЗДОРОВЛЕНИЮ
         </span>
       </div>
       <nuxt-img
-        src="/images/about/3.png"
+        src="/images/links/6.png"
         class="h-full w-full duration-1500 group-hover:scale-120"
       />
     </article>

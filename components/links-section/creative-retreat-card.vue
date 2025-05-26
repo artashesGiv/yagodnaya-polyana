@@ -13,7 +13,7 @@
         ТВОРЧЕСКАЯ <br />ЗДРАВНИЦА
       </span>
       <nuxt-img
-        src="/images/about/9.png"
+        src="/images/links/9.png"
         class="absolute right-0 bottom-0 h-[65%] duration-1500 group-hover:scale-120"
       />
     </article>

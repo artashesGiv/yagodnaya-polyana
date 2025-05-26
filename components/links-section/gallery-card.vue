@@ -11,7 +11,7 @@
         ГАЛЕРЕЯ
       </span>
       <nuxt-img
-        src="/images/about/5.png"
+        src="/images/links/5.png"
         class="h-full w-full duration-1500 group-hover:scale-120"
       />
     </article>

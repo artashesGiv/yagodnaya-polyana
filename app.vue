@@ -2,6 +2,6 @@
   <div>
     <main-header />
     <main-section />
-    <about-section />
+    <links-section />
   </div>
 </template>

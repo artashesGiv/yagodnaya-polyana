@@ -6,16 +6,16 @@
   >
     <article class="group relative overflow-hidden rounded-[40px]">
       <div
-        class="bg-primary absolute top-0 left-0 z-10 flex h-[45%] w-full items-center justify-center rounded-t-[40px]"
+        class="absolute top-0 left-0 z-10 flex h-[33.33%] w-full items-center justify-center rounded-t-[40px] border-1 bg-white"
       >
         <span
-          class="font-druzhok text-[60px] leading-none text-white sm:text-[50px] lg:text-[60px]"
+          class="text-secondary font-druzhok text-[60px] leading-none sm:text-[50px] lg:text-[60px]"
         >
-          НАШИ <br />ВРАЧИ
+          НОМЕРА
         </span>
       </div>
       <nuxt-img
-        src="/images/about/8.png"
+        src="/images/links/3.png"
         class="h-full w-full duration-1500 group-hover:scale-120"
       />
     </article>
