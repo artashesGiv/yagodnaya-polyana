@@ -1,16 +1,12 @@
 <template>
-  <a
-    href="https://vk.com"
-    target="_blank"
-    class="block h-auto w-[100%] sm:size-[400px] lg:size-[500px]"
-  >
+  <a href="https://vk.com" target="_blank" class="link-card">
     <article class="group relative overflow-hidden rounded-[40px]">
       <nuxt-img
         src="/images/links/1.png"
         class="h-full w-full duration-1500 group-hover:scale-120"
       />
       <span
-        class="text-primary font-druzhok li absolute top-[48px] left-[55px] text-[60px] leading-none sm:text-[50px] lg:text-[60px]"
+        class="text-primary li link-card-title absolute top-[10%] left-[10%] leading-none sm:top-[48px] sm:left-[55px]"
       >
         СБОР<br />ТРАВ
       </span>

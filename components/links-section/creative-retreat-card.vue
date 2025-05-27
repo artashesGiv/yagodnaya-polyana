@@ -1,14 +1,10 @@
 <template>
-  <a
-    href="https://vk.com"
-    target="_blank"
-    class="block h-auto w-[100%] sm:size-[400px] lg:size-[500px]"
-  >
+  <a href="https://vk.com" target="_blank" class="link-card">
     <article
       class="group bg-primary relative h-full overflow-hidden rounded-[40px]"
     >
       <span
-        class="font-druzhok absolute top-[50px] left-[65px] z-10 text-[60px] leading-none text-white sm:text-[50px] lg:text-[60px]"
+        class="font-druzhok z-10leading-none link-card-title absolute top-[50px] left-[65px] text-white"
       >
         ТВОРЧЕСКАЯ <br />ЗДРАВНИЦА
       </span>

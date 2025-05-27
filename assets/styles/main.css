@@ -11,8 +11,23 @@ body {
   --color-main-black: #303030;
 
   --breakpoint-3xl: 120rem;
+  --breakpoint-xsm: 25rem;
 
   --shadow-base: 0 8px 16px 0 #1b1b1b33;
 
   --font-druzhok: Druzhok, sans-serif;
+}
+
+@layer utilities {
+  .section-container {
+    @apply 3xl:px-[134px] 3xl:py-[165px] overflow-hidden px-[20px] py-[40px];
+  }
+
+  .link-card {
+    @apply block h-auto w-[100%] max-sm:max-w-[500px] sm:size-[400px] lg:size-[500px];
+  }
+
+  .link-card-title {
+    @apply font-druzhok xsm:text-[40px] text-[34px] leading-none sm:text-[45px] md:text-[50px] lg:text-[60px];
+  }
 }
