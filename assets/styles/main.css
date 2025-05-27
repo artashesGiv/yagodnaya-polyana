@@ -20,7 +20,7 @@ body {
 
 @layer utilities {
   .section-container {
-    @apply 3xl:px-[134px] 3xl:py-[165px] overflow-hidden px-[20px] py-[40px];
+    @apply 3xl:px-[134px] 3xl:py-[100px] overflow-hidden px-[20px] py-[40px] md:px-[40px];
   }
 
   .link-card {
@@ -30,4 +30,20 @@ body {
   .link-card-title {
     @apply font-druzhok xsm:text-[40px] text-[34px] leading-none sm:text-[45px] md:text-[50px] lg:text-[60px];
   }
+
+  .button {
+    @apply transition-base cursor-pointer rounded-[20px] border-2 px-[30px] py-[18px] text-[24px];
+  }
+
+  .button-secondary {
+    @apply border-primary text-primary hover:shadow-base hover:text-green-800;
+  }
+
+  .button-primary {
+    @apply bg-primary hover:shadow-base text-white hover:bg-green-800;
+  }
+}
+
+@utility transition-base {
+  @apply duration-300;
 }

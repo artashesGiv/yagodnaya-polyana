@@ -4,5 +4,6 @@
     <main-section />
     <links-section />
     <benefits-section />
+    <about-section />
   </div>
 </template>
