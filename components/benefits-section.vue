@@ -42,5 +42,3 @@ const benefits = [
   'Индивидуальный подход',
 ]
 </script>
-
-<style scoped></style>

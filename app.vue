@@ -5,5 +5,6 @@
     <links-section />
     <benefits-section />
     <about-section />
+    <contacts-section />
   </div>
 </template>
