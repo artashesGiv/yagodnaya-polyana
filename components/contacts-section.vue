@@ -1,9 +1,6 @@
 <template>
   <section id="contacts" class="relative overflow-hidden">
-    <nuxt-img
-      src="/images/contacts/background.jpg"
-      class="w-full max-lg:hidden"
-    />
+    <nuxt-img src="/images/contacts/background.jpg" class="w-full" />
     <nuxt-img
       src="/images/contacts/decoration-1.png"
       class="absolute top-0 right-0 z-2 w-[80%] md:w-[60%]"
@@ -18,7 +15,11 @@
       НАШИ <br />
       КОНТАКТЫ
     </h2>
-    <div class="h-[1500px] lg:hidden">qwe</div>
+    <div
+      class="absolute top-[150px] z-5 h-[500px] w-full bg-white sm:top-[200px] md:top-[250px] lg:hidden"
+    >
+      qwe
+    </div>
     <div class="bg-secondary h-[1500px]">qwe</div>
   </section>
 </template>
