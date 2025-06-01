@@ -2,6 +2,7 @@
 
 body {
   font-family: Actay, sans-serif;
+  color: var(--color-main-black);
 }
 
 @theme {
@@ -41,6 +42,18 @@ body {
 
   .button-primary {
     @apply bg-primary hover:shadow-base text-white hover:bg-green-800;
+  }
+
+  .text-h3 {
+    @apply 3xl:text-[80px] text-[24px] md:text-[32px] 2xl:text-[40px];
+  }
+
+  .text-base {
+    @apply 3xl:text-[50px] text-[20px] md:text-[24px] 2xl:text-[32px];
+  }
+
+  .text-small {
+    @apply 3xl:text-[40px] text-[18px] md:text-[20px] 2xl:text-[30px];
   }
 }
 

@@ -27,17 +27,13 @@
     <div
       class="bg-secondary section-container text-white-secondary important 3xl:gap-6 flex flex-col gap-4 sm:gap-[20px] sm:px-[80px]! md:px-[120px]! xl:pt-[500px]! 2xl:px-[300px]! 2xl:pt-[600px]!"
     >
-      <h3 class="3xl:text-[80px] text-[24px] md:text-[32px] 2xl:text-[40px]">
-        Наш адрес:
-      </h3>
-      <span class="3xl:text-[50px] text-[20px] md:text-[24px] 2xl:text-[32px]">
+      <h3 class="text-h3">Наш адрес:</h3>
+      <span class="text-base">
         Татищевский р-н, Саратовская обл., с. Ягодная Поляна, ул. Иванникова, 12
       </span>
 
-      <h3 class="3xl:text-[80px] text-[24px] md:text-[32px] 2xl:text-[40px]">
-        Как добраться до нас:
-      </h3>
-      <span class="3xl:text-[50px] text-[20px] md:text-[24px] 2xl:text-[32px]">
+      <h3 class="text-h3">Как добраться до нас:</h3>
+      <span class="text-base">
         От Саратова ехать автобусом №349 (Расписание) до конечной остановки
         “Ягодная Поляна”. Автобусом №632 (Расписание) до поворота на Ягодную
         Поляну, а на повороте мы вас встретим. Автовокзал находится рядом с ж/д

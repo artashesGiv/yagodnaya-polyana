@@ -15,9 +15,11 @@
       <button class="button button-secondary">
         Бронируйте заранее – места ограничены!
       </button>
-      <button class="button button-primary">
-          по тел. +7 (987) 800-34-13
-      </button>
+      <a href="tel:+79808003413" type="phone">
+        <button class="button button-primary">
+            по тел. +7 (987) 800-34-13
+        </button>
+      </a>
     </div>
   </section>
 </template>

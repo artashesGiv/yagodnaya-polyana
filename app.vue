@@ -6,5 +6,6 @@
     <benefits-section />
     <about-section />
     <contacts-section />
+    <main-footer />
   </div>
 </template>
