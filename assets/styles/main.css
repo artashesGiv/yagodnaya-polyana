@@ -32,7 +32,7 @@ body {
   }
 
   .button {
-    @apply transition-base cursor-pointer rounded-xl border-2 px-[18px] py-[8px] text-[20px] md:px-[30px] md:py-[18px] md:text-[24px];
+    @apply transition-base cursor-pointer rounded-xl border-2 p-[12px] text-[20px] md:p-[18px] md:text-[24px] 2xl:px-[30px] 2xl:py-[18px] 2xl:text-[32px];
   }
 
   .button-secondary {

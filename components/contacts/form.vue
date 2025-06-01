@@ -1,72 +1,78 @@
 <template>
   <form
-    class="mx-auto flex max-w-md flex-col gap-6"
+    class="2xl-max-w-3xl mx-auto flex max-w-lg flex-col gap-6 xl:max-w-[50%]"
     @submit.prevent="handleSubmit"
   >
-    <h3 class="text-right text-[24px] md:text-[32px]">
+    <h3
+      class="3xl:text-[60px] text-right text-[24px] md:text-[32px] 2xl:text-[40px]"
+    >
       Заполните форму бронирования
     </h3>
     <!-- Name -->
-    <div>
+    <div class="relative">
       <label
         for="name"
-        class="mb-1 block text-[18px] font-medium md:text-[24px]"
-        >ваше имя</label
+        class="3xl:text-[45px] mb-1 block text-right text-[18px] font-medium md:text-[24px] 2xl:text-[32px]"
       >
+        ваше имя
+      </label>
       <ui-input-base
         v-model="form.name"
         input-id="name"
         placeholder="Введите имя"
         type="text"
       />
-      <p v-if="errors.name" class="mt-1 text-sm text-red-500">
+      <p v-if="errors.name" class="absolute mt-1 text-sm text-red-500">
         {{ errors.name }}
       </p>
     </div>
 
     <!-- Phone -->
-    <div>
+    <div class="relative">
       <label
         for="phone"
-        class="mb-1 block text-[18px] font-medium md:text-[24px]"
-        >телефон</label
+        class="3xl:text-[45px] mb-1 block text-right text-[18px] font-medium md:text-[24px] 2xl:text-[32px]"
       >
+        телефон
+      </label>
       <ui-input-base
         v-model="form.phone"
         input-id="phone"
         type="tel"
         placeholder="+7XXXXXXXXXX"
       />
-      <p v-if="errors.phone" class="mt-1 text-sm text-red-500">
+      <p v-if="errors.phone" class="absolute mt-1 text-sm text-red-500">
         {{ errors.phone }}
       </p>
     </div>
 
     <!-- Email -->
-    <div>
+    <div class="relative">
       <label
         for="email"
-        class="mb-1 block text-[18px] font-medium md:text-[24px]"
-        >e-mail</label
+        class="3xl:text-[45px] mb-1 block text-right text-[18px] font-medium md:text-[24px] 2xl:text-[32px]"
       >
+        e-mail
+      </label>
       <ui-input-base
         v-model="form.email"
         input-id="email"
         type="email"
         placeholder="example@mail.com"
       />
-      <p v-if="errors.email" class="mt-1 text-sm text-red-500">
+      <p v-if="errors.email" class="absolute mt-1 text-sm text-red-500">
         {{ errors.email }}
       </p>
     </div>
 
     <!-- Persons -->
-    <div>
+    <div class="relative">
       <label
         for="persons"
-        class="mb-1 block text-[18px] font-medium md:text-[24px]"
-        >количество человек</label
+        class="3xl:text-[45px] mb-1 block text-right text-[18px] font-medium md:text-[24px] 2xl:text-[32px]"
       >
+        количество человек
+      </label>
       <ui-input-base
         v-model="form.persons"
         input-id="persons"
@@ -74,35 +80,41 @@
         min="1"
         placeholder="1"
       />
-      <p v-if="errors.persons" class="mt-1 text-sm text-red-500">
+      <p v-if="errors.persons" class="absolute mt-1 text-sm text-red-500">
         {{ errors.persons }}
       </p>
     </div>
 
     <!-- Arrival Dates -->
     <div>
-      <p class="mb-2 block text-[18px] font-medium md:text-[24px]">
+      <p
+        class="3xl:text-[45px] mb-2 block text-right text-[18px] font-medium md:text-[24px] 2xl:text-[32px]"
+      >
         выберите заезд
       </p>
-      <ul class="space-y-2">
+      <ul class="flex flex-col items-end gap-2">
         <li
           v-for="option in arrivalOptions"
           :key="option"
           class="flex items-center gap-2"
         >
-          <input
-            :id="option"
-            v-model="form.arrival"
-            type="radio"
-            :value="option"
-            class="accent-primary h-4 w-4"
-          />
-          <label :for="option" class="text-[16px] md:text-[20px]">{{
-            option
-          }}</label>
+          <label
+            :for="option"
+            class="3xl:text-[35px] cursor-pointer text-[16px] md:text-[20px] 2xl:text-[26px]"
+            @click="form.arrival = option"
+          >
+            {{ option }}
+            <input
+              :id="option"
+              v-model="form.arrival"
+              type="radio"
+              :value="option"
+              class="accent-primary 2xl:w- 3xl:h-7 3xl:w-7 h-4 w-4 2xl:h-5"
+            />
+          </label>
         </li>
       </ul>
-      <p v-if="errors.arrival" class="mt-1 text-sm text-red-500">
+      <p v-if="errors.arrival" class="absolute mt-1 text-sm text-red-500">
         {{ errors.arrival }}
       </p>
     </div>
