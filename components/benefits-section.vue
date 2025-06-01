@@ -16,14 +16,20 @@
       </p>
     </div>
     <ul
-      class="flex flex-wrap justify-center gap-[20px] md:gap-[40px] lg:gap-[80px]"
+      class="grid grid-cols-1 gap-[20px] sm:grid-cols-2 md:gap-[40px] lg:gap-[80px] xl:grid-cols-3"
     >
       <li
         v-for="benefit in benefits"
-        :key="benefit"
-        class="border-white-secondary text-white-secondary block w-full border-1 text-center text-[20px] md:w-[50%] md:text-[24px] lg:w-[30%] lg:text-[30px]"
+        :key="benefit.title"
+        class="text-white-secondary flex w-full flex-col items-center gap-3 text-center text-[20px] sm:max-xl:last:col-span-2 sm:max-xl:last:place-self-center md:text-[24px] lg:text-[30px]"
       >
-        {{ benefit }}
+        <component
+          :is="benefit.icon"
+          class="size-[90px] md:size-[100px] lg:size-[120px]"
+        />
+        <span>
+          {{ benefit.title }}
+        </span>
       </li>
     </ul>
   </section>
@@ -31,14 +37,41 @@
 
 <script setup lang="ts">
 const benefits = [
-  'Комфортные номера',
-  'Интернет Wi-Fi',
-  'Инфраструктура для детей',
-  'Вегетарианское питание',
-  'Стоянка на территории',
-  'Семейная атмосфера',
-  'Чистый воздух',
-  'Видеонаблюдение',
-  'Индивидуальный подход',
+  {
+    title: 'Комфортные номера',
+    icon: defineAsyncComponent(() => import('@/components/icon/bed.vue')),
+  },
+  {
+    title: 'Интернет Wi-Fi',
+    icon: defineAsyncComponent(() => import('@/components/icon/wifi.vue')),
+  },
+  {
+    title: 'Инфраструктура для детей',
+    icon: defineAsyncComponent(() => import('@/components/icon/child.vue')),
+  },
+  {
+    title: 'Вегетарианское питание',
+    icon: defineAsyncComponent(() => import('@/components/icon/leaf.vue')),
+  },
+  {
+    title: 'Стоянка на территории',
+    icon: defineAsyncComponent(() => import('@/components/icon/car.vue')),
+  },
+  {
+    title: 'Семейная атмосфера',
+    icon: defineAsyncComponent(() => import('@/components/icon/people.vue')),
+  },
+  {
+    title: 'Чистый воздух',
+    icon: defineAsyncComponent(() => import('@/components/icon/air.vue')),
+  },
+  {
+    title: 'Видеонаблюдение',
+    icon: defineAsyncComponent(() => import('@/components/icon/camera.vue')),
+  },
+  {
+    title: 'Индивидуальный подход',
+    icon: defineAsyncComponent(() => import('@/components/icon/hands.vue')),
+  },
 ]
 </script>
