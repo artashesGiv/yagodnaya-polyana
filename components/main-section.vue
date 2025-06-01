@@ -10,13 +10,19 @@
     <div
       class="section-container absolute top-1/2 left-1/2 w-[80%] -translate-x-1/2 -translate-y-1/2 text-white"
     >
-      <h1
-        class="font-druzhok mb-4 text-center text-[50px] sm:text-[80px] md:text-[100px] lg:text-[120px]"
-      >
-        Ягодная поляна
-      </h1>
+      <nuxt-img
+        src="/images/logo/logo-min.png"
+        class="mx-auto block md:hidden"
+        alt="Логотип (мобильный)"
+      />
+
+      <nuxt-img
+        src="/images/logo/logo-big.png"
+        class="mx-auto hidden md:block"
+        alt="Логотип (десктоп)"
+      />
       <h4
-        class="mb-4 text-center text-[24px] sm:text-[40px] md:text-[50px] lg:text-[60px]"
+        class="mb-4 hidden text-center text-[32px] md:block lg:text-[40px] xl:text-[50px]"
       >
         центр здорового образа жизни
       </h4>

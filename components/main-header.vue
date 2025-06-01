@@ -4,7 +4,7 @@
   >
     <div class="grow cursor-pointer" @click="scrollTo('main')">
       <nuxt-img
-        src="/images/logo.png"
+        src="/images/logo/logo-header.png"
         alt="Ягодная поляна - логотип"
         class="3xl:h-[150px] h-[50px] sm:h-[80px] md:h-[100px] lg:h-[120px]"
       />
