@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="relative">
     <main-header />
     <main-section />
     <links-section />

@@ -3,6 +3,10 @@
 body {
   font-family: Actay, sans-serif;
   color: var(--color-main-black);
+
+  &.no-scroll {
+    overflow: hidden;
+  }
 }
 
 @theme {
@@ -25,7 +29,7 @@ body {
   }
 
   .link-card {
-    @apply block h-auto w-[100%] max-sm:max-w-[500px] sm:size-[400px] lg:size-[500px];
+    @apply block h-auto w-[100%] cursor-pointer max-sm:max-w-[500px] sm:size-[400px] lg:size-[500px];
   }
 
   .link-card-title {
