@@ -16,7 +16,7 @@
         Бронируйте заранее – места ограничены!
       </button>
       <a href="tel:+79808003413" type="phone">
-        <button class="button button-primary">
+        <button class="button button-primary w-full">
             по тел. +7 (987) 800-34-13
         </button>
       </a>
