@@ -4,7 +4,6 @@
       v-if="isModalOpen"
       v-on-click-outside="() => $emit('close')"
       class="fixed top-1/2 left-1/2 z-50 w-full -translate-x-1/2 -translate-y-1/2 transform overflow-auto max-md:max-h-[80%] sm:w-[80%] lg:h-auto"
-      @click="$emit('close')"
     >
       <slot />
     </div>
