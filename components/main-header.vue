@@ -53,12 +53,11 @@ import { useSmoothScroll } from '~/composables/useSmoothScroll'
 import { vOnClickOutside } from '@vueuse/components'
 
 const links: { title: string; id: string }[] = [
-  // { title: 'Главная', id: 'main' },
-  { title: 'О нас', id: 'about' },
-  { title: 'Услуги', id: 'benefits' },
   { title: 'Галерея', id: 'gallery' },
+  { title: 'Услуги', id: 'benefits' },
+  { title: 'О нас', id: 'about' },
   { title: 'Бронирование', id: 'reservation' },
-  { title: 'Контакты', id: 'contacts' },
+  { title: 'Контакты', id: 'footer' },
 ]
 
 const isOpenMenu = ref(false)

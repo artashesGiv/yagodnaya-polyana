@@ -1,5 +1,6 @@
 <template>
   <section
+    id="footer"
     class="section-container flex flex-col gap-4 bg-white text-center md:gap-6 lg:gap-10"
   >
     <h3 class="text-base">Звоните, если возникли вопросы:</h3>

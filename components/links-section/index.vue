@@ -1,6 +1,6 @@
 <template>
   <section
-    id="links"
+    id="gallery"
     class="section-container 3xl:gap-[60px] flex flex-wrap justify-center gap-[20px] bg-white md:gap-[40px]"
   >
     <links-section-herb-gathering-card />

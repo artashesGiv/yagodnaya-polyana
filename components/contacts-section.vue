@@ -1,5 +1,5 @@
 <template>
-  <section id="contacts" class="relative overflow-hidden">
+  <section id="reservation" class="relative overflow-hidden">
     <nuxt-img
       src="/images/contacts/background.jpg"
       class="h-[150px] w-full object-cover sm:h-[200px] md:h-[250px] lg:h-[300px] xl:h-full"
