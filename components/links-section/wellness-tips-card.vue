@@ -1,5 +1,9 @@
 <template>
-  <a href="https://vk.com" target="_blank" class="link-card">
+  <a
+    href="http://vk.com/@yagodnaypolyana-sovety-po-ozdorovleniu"
+    target="_blank"
+    class="link-card"
+  >
     <article class="group relative overflow-hidden rounded-[40px]">
       <div
         class="bg-secondary absolute top-0 left-0 z-10 flex h-[40%] w-full items-center justify-center rounded-t-[40px]"

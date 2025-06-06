@@ -1,5 +1,9 @@
 <template>
-  <a href="https://vk.com" target="_blank" class="link-card">
+  <a
+    href="https://vk.com/album-117187461_307160701"
+    target="_blank"
+    class="link-card"
+  >
     <article
       class="group bg-primary relative h-full overflow-hidden rounded-[40px]"
     >

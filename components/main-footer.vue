@@ -18,7 +18,7 @@
           class="md:size-[100px] 2xl:size-[140px]"
         />
       </a>
-      <a href="https://vk.com" target="_blank">
+      <a href="https://vk.com/yagodnaypolyana" target="_blank">
         <nuxt-img
           src="/images/footer/vk.png"
           class="md:size-[100px] 2xl:size-[140px]"

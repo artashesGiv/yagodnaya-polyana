@@ -1,5 +1,9 @@
 <template>
-  <a href="https://vk.com" target="_blank" class="link-card">
+  <a
+    href="http://vk.com/@yagodnaypolyana-celebnye-travy"
+    target="_blank"
+    class="link-card"
+  >
     <article class="group relative overflow-hidden rounded-[40px]">
       <nuxt-img
         src="/images/links/1.png"
