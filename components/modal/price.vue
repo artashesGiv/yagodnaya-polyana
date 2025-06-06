@@ -3,7 +3,7 @@
     <div
       class="bg-white-secondary relative flex flex-col gap-6 overflow-hidden p-8 sm:p-12 xl:p-20"
     >
-      <div class="flex flex-col gap-6 2xl:w-[65%]">
+      <div class="flex flex-col gap-6 2xl:w-[60%]">
         <h3 class="text-primary text-3xl lg:text-5xl">
           СТОИМОСТЬ ОТДЫХА И ДАТЫ ЗАЕЗДОВ
         </h3>
