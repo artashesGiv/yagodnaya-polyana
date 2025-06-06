@@ -21,7 +21,9 @@
       </li>
     </ul>
 
-    <icon-phone class="text-primary hidden size-[60px] 2xl:block" />
+    <a href="tel:+79808003413" type="phone">
+      <icon-phone class="text-primary hidden size-[60px] 2xl:block" />
+    </a>
     <div
       class="hidden cursor-pointer items-center max-2xl:block"
       @click="onToggleMenu(true)"
