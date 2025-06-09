@@ -8,19 +8,19 @@
       class="flex flex-row items-center justify-center gap-2 md:gap-10 xl:gap-20 2xl:gap-40"
     >
       <a href="tel:+79878003413" type="phone">
-        <nuxt-img
+        <lazy-image
           src="/images/footer/phone.png"
           class="size-[60px] md:size-[100px] 2xl:size-[140px]"
         />
       </a>
       <a href="https://wa.me/79878003413" target="_blank">
-        <nuxt-img
+        <lazy-image
           src="/images/footer/whatsapp.png"
           class="size-[60px] md:size-[100px] 2xl:size-[140px]"
         />
       </a>
       <a href="https://vk.com/yagodnaypolyana" target="_blank">
-        <nuxt-img
+        <lazy-image
           src="/images/footer/vk.png"
           class="size-[60px] md:size-[100px] 2xl:size-[140px]"
         />

@@ -1,14 +1,14 @@
 <template>
   <section id="reservation" class="relative overflow-hidden">
-    <nuxt-img
+    <lazy-image
       src="/images/contacts/background.jpg"
       class="h-[150px] w-full object-cover sm:h-[200px] md:h-[250px] lg:h-[300px] xl:h-full"
     />
-    <nuxt-img
+    <lazy-image
       src="/images/contacts/decoration-1.png"
       class="absolute top-0 right-0 z-2 w-[80%] md:w-[60%]"
     />
-    <nuxt-img
+    <lazy-image
       src="/images/contacts/decoration-2.png"
       class="3xl:max-h-[2600px] absolute top-0 left-[220px] z-3 w-full max-xl:hidden xl:max-h-[2000px] 2xl:max-h-[2300px]"
     />
