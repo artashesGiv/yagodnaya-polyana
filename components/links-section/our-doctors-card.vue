@@ -10,7 +10,7 @@
         НАШИ <br />ВРАЧИ
       </span>
     </div>
-    <nuxt-img
+    <lazy-image
       src="/images/links/8.png"
       class="h-full w-full duration-1500 group-hover:scale-120"
     />

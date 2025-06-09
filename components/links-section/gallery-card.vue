@@ -10,7 +10,7 @@
       >
         ГАЛЕРЕЯ
       </span>
-      <nuxt-img
+      <lazy-image
         src="/images/links/5.png"
         class="h-full w-full duration-1500 group-hover:scale-120"
       />
