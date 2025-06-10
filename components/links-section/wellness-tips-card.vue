@@ -12,7 +12,7 @@
           СОВЕТЫ ПО <br />ОЗДОРОВЛЕНИЮ
         </span>
       </div>
-      <lazy-image
+      <nuxt-img
         src="/images/links/6.png"
         class="h-full w-full duration-1500 group-hover:scale-120"
       />

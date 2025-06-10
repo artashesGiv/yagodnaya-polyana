@@ -3,11 +3,11 @@
     class="group link-card relative overflow-hidden rounded-[40px]"
     @click="isModalOpen = !isModalOpen"
   >
-    <lazy-image
+    <nuxt-img
       src="/images/links/2.png"
       class="h-full w-full duration-1500 group-hover:scale-120"
     />
-    <lazy-image
+    <nuxt-img
       src="/images/links/2-bg.png"
       class="absolute bottom-0 left-0 w-[93%]"
     />

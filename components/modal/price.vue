@@ -22,7 +22,7 @@
         </ul>
       </div>
 
-      <lazy-image
+      <nuxt-img
         src="/images/price/decoration-1.png"
         class="absolute top-0 right-0 hidden h-full 2xl:block"
       />

@@ -3,7 +3,7 @@
     class="bg-white-secondary flex h-[80px] items-center gap-[30px] px-[20px] py-[10px] sm:h-[120px] md:gap-[50px] md:py-[40px] lg:h-[150px]"
   >
     <div class="grow cursor-pointer" @click="scrollTo('main')">
-      <lazy-image
+      <nuxt-img
         src="/images/logo/logo-header.png"
         alt="Ягодная поляна - логотип"
         class="3xl:h-[150px] h-[50px] sm:h-[80px] md:h-[100px] lg:h-[120px]"

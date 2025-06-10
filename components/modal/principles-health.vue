@@ -16,7 +16,7 @@
           <p class="text-white-secondary">
             {{ index + 1 }}
           </p>
-          <lazy-image
+          <nuxt-img
             :src="principle.img"
             :alt="principle.title"
             class="3xl:size-[160px] size-[60px] sm:size-[80px] xl:size-[120px]"
