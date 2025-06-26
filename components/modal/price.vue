@@ -11,14 +11,14 @@
           class="text-primary text-[20px] italic lg:text-[24px] xl:text-[28px]"
         >
           Стоимость 7-дневного заезда (питание включено) –
-          <strong class="font-extrabold">19 600 руб.</strong> <br />
+          <strong class="font-extrabold">24 500 - 25 900 руб.</strong> <br />
           Стоимость 10-дневного заезда (питание включено) –
-          <strong class="font-extrabold">28 000 руб.</strong>
+          <strong class="font-extrabold">35 000 - 37 000 руб.</strong>
         </p>
         <ul
-          class="grid list-disc grid-cols-1 gap-1 pl-5 text-[18px] lg:grid-cols-2 lg:text-[22px] xl:text-[24px]"
+          class="list-disc columns-2 justify-items-start gap-1 pl-5 text-[18px] lg:grid-cols-2 lg:text-[22px] xl:text-[24px]"
         >
-          <li v-for="item in list" :key="item">{{ item }}</li>
+          <li v-for="item in dateArrivals" :key="item">{{ item }}</li>
         </ul>
       </div>
 
@@ -30,6 +30,8 @@
   </modal-base>
 </template>
 <script setup lang="ts">
+import { dateArrivals } from 'assets/content'
+
 type Props = {
   isModalOpen: boolean
 }
@@ -39,16 +41,4 @@ type Emits = {
 
 defineProps<Props>()
 defineEmits<Emits>()
-
-const list = [
-  '30 сентября – 07 октября',
-  '21-28 октября',
-  '18-28 ноября',
-  '02-09 декабря',
-  '16-23 декабря',
-  '30 декабря – 06 января',
-  '13-23 января',
-  '27 января – 03 февраля',
-  '10-17 февраля',
-]
 </script>

@@ -92,9 +92,9 @@
       >
         выберите заезд
       </p>
-      <ul class="flex flex-col items-end gap-2">
+      <ul class="columns-2 justify-items-end gap-2">
         <li
-          v-for="option in arrivalOptions"
+          v-for="option in dateArrivals"
           :key="option"
           class="flex items-center gap-2"
         >
@@ -152,6 +152,8 @@
 </template>
 
 <script setup lang="ts">
+import { dateArrivals } from 'assets/content'
+
 interface BookingForm {
   name: string
   phone: string
@@ -178,18 +180,6 @@ const errors = reactive<Record<keyof BookingForm, string | null>>({
 
 const submitting = ref(false)
 const success = ref(false)
-
-const arrivalOptions = [
-  '30 сентября – 07 октября',
-  '21–28 октября',
-  '18–28 ноября',
-  '02–09 декабря',
-  '16–23 декабря',
-  '30 декабря – 06 января',
-  '13–23 января',
-  '27 января – 03 февраля',
-  '10–17 февраля',
-]
 
 function resetErrors() {
   ;(Object.keys(errors) as (keyof BookingForm)[]).forEach(
