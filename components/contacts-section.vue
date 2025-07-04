@@ -40,7 +40,15 @@
         вокзалом – с поезда можно дойти пешком. Чтобы мы вас встретили,
         необходимо заранее позвонить и сообщить о себе по телефону.
       </span>
+      <div class="relative z-5 mt-8 w-full">
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?ll=45.612264%2C51.972959&z=16&l=map"
+          width="100%"
+          height="400"
+        />
+      </div>
     </div>
   </section>
 </template>
+
 <script setup lang="ts"></script>
