@@ -226,13 +226,7 @@ async function handleSubmit() {
 
   submitting.value = true
   try {
-    // POST to /api/booking (create the corresponding server route)
-    // await $fetch('/api/booking', {
-    //   method: 'POST',
-    //   body: form,
-    // })
-
-    console.log(form)
+    await $fetch('/api/booking', { method: 'POST', body: form })
 
     success.value = true
     // reset form
