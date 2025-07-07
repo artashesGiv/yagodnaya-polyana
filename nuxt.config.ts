@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     '~/assets/styles/animations.css',
   ],
   nitro: { preset: 'static' },
-  app: { baseURL: '/' },
+  // app: { baseURL: '/' },
   vite: {
     plugins: [tailwindcss()],
   },
