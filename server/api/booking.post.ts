@@ -13,6 +13,8 @@ export default defineEventHandler(async event => {
   const body = await readBody(event)
   const data = schema.parse(body) // пробросит 400, если невалидно
 
+  console.log(process.env.SMTP_HOST)
+
   const transporter = Nodemailer.createTransport({
     host: process.env.SMTP_HOST,
     port: Number(process.env.SMTP_PORT),
