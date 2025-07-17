@@ -14,5 +14,10 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
 
+  image: {
+    provider: 'none',
+    dir: 'public',
+  },
+
   modules: ['@nuxt/eslint', '@nuxt/image', '@vueuse/nuxt'],
 })
