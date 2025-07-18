@@ -92,7 +92,7 @@
       >
         выберите заезд
       </p>
-      <ul class="columns-2 justify-items-end gap-2">
+      <ul class="xsm:grid-cols-2 grid grid-cols-1 justify-items-end gap-2">
         <li
           v-for="option in dateArrivals"
           :key="option"
