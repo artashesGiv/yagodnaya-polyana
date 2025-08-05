@@ -1,0 +1,27 @@
+<template>
+  <svg viewBox="0 0 279 279" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect
+      x="5"
+      y="5"
+      width="269"
+      height="269"
+      rx="134.5"
+      stroke="white"
+      stroke-width="10"
+    />
+    <rect
+      x="55"
+      y="82"
+      width="170"
+      height="118"
+      rx="18"
+      stroke="white"
+      stroke-width="10"
+    />
+    <path
+      d="M120.5 167V112L170 139.5L120.5 167Z"
+      stroke="white"
+      stroke-width="10"
+    />
+  </svg>
+</template>
