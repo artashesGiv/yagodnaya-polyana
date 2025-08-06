@@ -1,11 +1,11 @@
 <template>
   <section
     id="reviews"
-    class="section-container relative -z-10 flex w-full flex-col gap-[24px] bg-[url('/images/reviews/bg.png')] bg-cover bg-center xl:gap-[54px] 2xl:flex-row"
+    class="section-container relative flex w-full flex-col gap-[24px] bg-[url('/images/reviews/bg.png')] bg-cover bg-center xl:gap-[54px] 2xl:flex-row"
   >
-    <div class="absolute inset-0 -z-9 bg-[#3c3d18b8]" />
+    <div class="absolute inset-0 bg-[#3c3d18b8]" />
     <div
-      class="bg-secondary flex flex-col gap-[24px] rounded-[24px] p-[24px] text-white xl:gap-[52px] xl:rounded-[54px] xl:p-[90px] 2xl:max-w-[700px]"
+      class="bg-secondary z-1 flex flex-col gap-[24px] rounded-[24px] p-[24px] text-white xl:gap-[52px] xl:rounded-[54px] xl:p-[90px] 2xl:max-w-[700px]"
     >
       <div class="flex flex-col gap-[24px] sm:flex-row">
         <nuxt-img
@@ -28,7 +28,7 @@
         физического, так и духовного, делает это место незабываемым.
       </p>
     </div>
-    <div class="flex flex-col justify-between gap-[32px]">
+    <div class="z-1 flex flex-col justify-between gap-[32px]">
       <h3 class="text-big text-center text-white xl:text-left">
         Еще больше отзывов о нас
       </h3>
